@@ -1,0 +1,134 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireObjectMapper (5.2.0):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - Cartography (2.1.0)
+  - IQKeyboardManagerSwift (6.4.0)
+  - Kingfisher (5.7.0)
+  - Localize-Swift (2.0.0)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - ObjectMapper (3.5.1)
+  - "ObjectMapper+Realm (0.6)":
+    - ObjectMapper
+    - RealmSwift
+  - QueryKit (0.13.0)
+  - ReachabilitySwift (4.3.1)
+  - Realm (3.17.1):
+    - Realm/Headers (= 3.17.1)
+  - Realm/Headers (3.17.1)
+  - RealmSwift (3.17.1):
+    - Realm (= 3.17.1)
+  - RxAlamofire (4.4.1):
+    - RxAlamofire/Core (= 4.4.1)
+  - RxAlamofire/Core (4.4.1):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 4.5)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxRealm (0.7.6):
+    - RealmSwift (~> 3.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.5.0)
+  - RxSwiftUtilities (2.1.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - SDWebImage (3.8.3):
+    - SDWebImage/Core (= 3.8.3)
+  - SDWebImage/Core (3.8.3)
+  - Seam3 (1.5.5)
+  - SkyFloatingLabelTextField (3.7.0)
+  - SwiftMessages (7.0.0):
+    - SwiftMessages/App (= 7.0.0)
+  - SwiftMessages/App (7.0.0)
+  - SwiftyJSON (5.0.0)
+  - Typist (1.4.2)
+  - Validator (3.2.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
+  - Cartography (~> 2.0)
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - Localize-Swift
+  - NVActivityIndicatorView
+  - ObjectMapper
+  - "ObjectMapper+Realm"
+  - QueryKit
+  - ReachabilitySwift (~> 4.1)
+  - Realm
+  - RealmSwift
+  - RxAlamofire
+  - RxCocoa
+  - RxRealm
+  - RxSwift
+  - RxSwiftUtilities
+  - SDWebImage (~> 3.7)
+  - Seam3
+  - SkyFloatingLabelTextField
+  - SwiftMessages
+  - SwiftyJSON
+  - Typist
+  - Validator
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Cartography
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Localize-Swift
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - "ObjectMapper+Realm"
+    - QueryKit
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - RxAlamofire
+    - RxCocoa
+    - RxRealm
+    - RxSwift
+    - RxSwiftUtilities
+    - SDWebImage
+    - Seam3
+    - SkyFloatingLabelTextField
+    - SwiftMessages
+    - SwiftyJSON
+    - Typist
+    - Validator
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
+  Cartography: 19c2223a8dfed35d82b098d365213b7ceb25ab2b
+  IQKeyboardManagerSwift: ed9b04ee0e3067ffba543283462d619f944b05e5
+  Kingfisher: c7d211b54f1f30d8060aadab177d52b4349c825b
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  "ObjectMapper+Realm": 4cf44ed3202a73f08594e21e13eb3f8aa9b5a664
+  QueryKit: 406c42b9b4eb5f8dab380a9e5bd9ef656542d1f4
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  Realm: c204f1a890f07dea43b14132a6aad118c054b8f2
+  RealmSwift: 4d3c9233544b9cd08a8913e0872b9038eb99b054
+  RxAlamofire: ed65f451f5a9a59419b0b9e705043dc01410edd9
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxRealm: 5379eddd74f8d617ca7681d1f8d144af25b432b0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  RxSwiftUtilities: b486df7454cc867c3ea626ce24110511159e7044
+  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
+  Seam3: 9b3eb72c92c77e26c927d2cd4e6b1a9e308bbb92
+  SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+  SwiftMessages: a952f7a9103d9aeab93730a2861d2d8fcdd8758f
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Typist: 06465ab9867782aa6c81e38f073dfc01dab73deb
+  Validator: 80a6f567220c962dfd2d9928ae98a8c1d164f6f4
+
+PODFILE CHECKSUM: 12d1adcf519f41d9d8812bfb4dcd6b92a211ef5c
+
+COCOAPODS: 1.7.4

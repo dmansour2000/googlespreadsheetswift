@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="home" rowHeight="48" id="KGk-i7-Jjw" customClass="HomeTableViewCell" customModule="TestApp_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="48"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="47.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9P6-ca-jSa">
+                        <rect key="frame" x="0.0" y="0.0" width="141" height="47.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="141" id="B17-Xc-6Ma"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y0b-Ps-atB">
+                        <rect key="frame" x="141" y="0.0" width="179" height="47.5"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="9P6-ca-jSa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="EvT-3f-lqI"/>
+                    <constraint firstItem="9P6-ca-jSa" firstAttribute="bottom" secondItem="y0b-Ps-atB" secondAttribute="bottom" id="Q8S-cw-Sk1"/>
+                    <constraint firstItem="9P6-ca-jSa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Xwi-8b-yho"/>
+                    <constraint firstItem="9P6-ca-jSa" firstAttribute="top" secondItem="y0b-Ps-atB" secondAttribute="top" id="dnG-6j-zkX"/>
+                    <constraint firstItem="y0b-Ps-atB" firstAttribute="leading" secondItem="9P6-ca-jSa" secondAttribute="trailing" id="eb5-1F-xzd"/>
+                    <constraint firstItem="9P6-ca-jSa" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="nCk-1y-xer"/>
+                    <constraint firstAttribute="trailing" secondItem="y0b-Ps-atB" secondAttribute="trailing" id="pLW-ZC-PFl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imagee" destination="y0b-Ps-atB" id="chA-kf-k4Q"/>
+                <outlet property="label" destination="9P6-ca-jSa" id="cQ7-7P-pgt"/>
+            </connections>
+            <point key="canvasLocation" x="132.80000000000001" y="111.54422788605699"/>
+        </tableViewCell>
+    </objects>
+</document>
